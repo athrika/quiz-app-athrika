@@ -1,0 +1,53 @@
+  [
+    {
+      "id": 1,
+      "question": "When does a new moon occur?",
+      "questionType": "radio",
+      "answerOptions": [
+        { "option": "Every 15 days", "isCorrect": true },
+        { "option": "Every 10 days", "isCorrect": false },
+        { "option": "Every 11 days", "isCorrect": false },
+        { "option": "Every 9 days", "isCorrect": false }
+      ],
+      "solutions" : "Every 15 days"
+    },
+    {
+      "id": 2,
+      "question": "When are the primitive data types in JavaScript?",
+      "questionType": "checkbox",
+      "answerOptions": [
+        { "option": "string", "isCorrect": true },
+        { "option": "boolean", "isCorrect": true },
+        { "option": "object", "isCorrect": false },
+        { "option": "array", "isCorrect": false }
+      ],
+      "solutions": ["string","boolean"]
+    },
+    {
+      "id": 3,
+      "question": "List down all the lifecycle methods in React",
+      "questionType": "textInput",
+      "answerOptions": [{ "option": "componentDidMount", "isCorrect": true }],
+      "solutions":"componentDidMount"
+    },
+    {
+      "id": 4,
+      "question": "The five fundamental elements in nature are Earth, Fire, Water, Space, and  ________",
+      "questionType": "textInput",
+      "answerOptions": [{ "option": "air", "isCorrect": true }],
+      "solutions":"air"
+    },
+    {
+      "id": 5,
+      "question": "  A class is a type of function, but instead of using the keyword function to initiate it, which keyword do we use?",
+      "questionType": "radio",
+      "answerOptions": [
+        { "option": "Constructor", "isCorrect": false },
+        { "option": "Class", "isCorrect": true },
+        { "option": "Object", "isCorrect": false },
+        { "option": "DataObject", "isCorrect": false }
+      ],
+      "solutions":"Class"
+    }
+  ]
+
